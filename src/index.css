@@ -1,0 +1,113 @@
+*{
+  font-family: 'Poppins', sans-serif;
+}
+
+body{ 
+  background-color: rgb(127, 244, 255);
+}
+
+.container { 
+  border-radius: 10px;
+  margin: 5% auto;
+  width: 50%;
+  background-color: rgb(255, 255, 255) ;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.4)
+}
+
+
+.Addtask {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 6px auto;
+  padding: 5px;
+}
+
+.AddtaskItem {
+  border: 1px solid ;
+  height: 37px;
+  width: 200px;
+  border-radius: 5px;
+  margin: 10px auto;
+}
+
+
+
+h3 {
+  margin: 10px auto;
+  color: #038C9E;
+}
+
+strong {
+  color: #038C9E;
+}
+
+
+
+.information {
+  margin: 10px auto;
+}
+
+.tasks {
+ 
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 5px;
+}
+
+.specialinput {
+  height: 50px;
+  flex-grow: 2;
+}
+
+.button {
+  height: 50px;
+  flex-grow: 2;
+  width: 20px;
+  
+}
+
+.completed {
+  margin-bottom: 10px;
+}
+
+.s {
+  display: flex;
+  align-content: center;
+  margin: 10px;
+}
+
+.item {
+  padding: 30px;
+  height: 1px;
+  width: 200px;
+  border: 2px solid black;
+  border-radius: 10%;
+
+}
+
+.btn-primary {
+  margin: 10px auto;
+  width: 200px;
+  margin-top: 20px;
+}
+
+
+.card-body { 
+  width: 18rem;
+}
+
+.card {
+  margin: 7px;
+  
+}
+
+
+
+.btntask {
+  margin: 5px;
+  
+}
